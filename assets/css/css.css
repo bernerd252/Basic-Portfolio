@@ -58,7 +58,9 @@ p
 	font-size: 10px
 	width: 7%;
 	padding: 10px;
-	text-decoration: none
+	text-decoration: none;
+	
+	
 }
 
 .portfolio
@@ -68,6 +70,7 @@ p
 	width: 7%;
 	padding: 10px;
 	text-decoration: none
+
 }
 
 .contact
@@ -137,9 +140,90 @@ input[type=submit]:hover
 {
 	width:200px;
 	height: 200px;
-	float: left;
 	padding-right: 15px;
 	padding-bottom: 5px;
+}
+
+#bio-image
+{
+	width:200px;
+	height: 200px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	float:left;
+}
+
+.example1
+{
+	width:200px;
+	height: 200px;
+}
+
+#example2
+{
+	width:200px;
+	height: 200px;
+	position: absolute;
+	top: 137px;
+	left:360px;
+}
+
+#example4
+{
+	width:200px;
+	height: 200px;
+	position: absolute;
+	top: 407px;
+	left: 360px;
+}
+
+figcaption
+{
+	color: white;
+	background-color: teal;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	margin-left: 5px;
+	position: relative;
+	top:-70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#figcaption2
+{
+	margin-left: 305px;
+	position: absolute;
+	top:281px;
+}
+
+#figcaption4
+{
+	margin-left: 305px;
+	position: absolute;
+	top:551px;
+}
+
+.right
+{
+	position:relative;
+	left:300px;
+	top: -247px;
+
+}
+
+.below
+{
+	position: relative;
+	top: -247px;
+}
+
+.belowone
+{
+	position:relative;
+	left:300px;
+	top: -494px;
 
 }
 
