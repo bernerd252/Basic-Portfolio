@@ -27,16 +27,23 @@
 		<h1>Contact</h1>
 		<hr>
 
-		<form action="mailto:edouardbatlle@yahoo.com" method="GET">
+		<form action="contact-form-handler.php" method="post" name="contact_form">
 			Name:<br>
 			<input type="text" name="name" placeholder="Arthur Dent"><br>
 			Email:<br>
-			<input type="text" name="email" placeholder="arthurdent@nofixedabode42.com"><br>
+			<input type="text" name="email" placeholder="ad42@nofixedabode.com"><br>
 			Message:<br>
-			<input type="text" name="message" class="message" placeholder="Vogons have destroyed earth, gone to get milk and a towel."><br>
-			<br>
-			<input type="submit" name="Submit">
+			<textarea name="message" class="message" placeholder="Vogons have destroyed the earth, gone to find tea and a towel."></textarea><br>
+			<br>
+			<input type="submit" value="Submit">
 		</form>
+
+		<script language="JavaScript">
+			bar frmvalidator = new Validator("contactform");
+			frmvalidator.addValidation("name", "req", "Please provide your name");
+			frmvalidator.addValidation("email", "req", "Please provide your email");
+			frmvalidator.addValidation("email","email", "Please enter a valid email address");
+		</script>
 
 		
 	</div>	
