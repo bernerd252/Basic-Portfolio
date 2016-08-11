@@ -21,6 +21,11 @@ a:hover
 	text-decoration: none;
 }
 
+a:visited
+{
+	color: grey;
+}
+
 h2
 {
 	padding-bottom: 26px;
@@ -152,7 +157,7 @@ textarea
 
 #bio-image
 {
-	width:200px;
+	width:150px;
 	height: 200px;
 	padding-right: 15px;
 	padding-bottom: 5px;
